@@ -1,16 +1,21 @@
 {
   "name": "validationtypescript",
+"homepage": "https://anabbaa.github.io/validationTypeScript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "predeploy": "npm run deploy",
+"deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^5.0.0",
     "lite-server": "^2.6.1"
   }
 }
