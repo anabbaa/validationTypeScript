@@ -21,3 +21,14 @@ form{
     height: 44vh;
     width: 22vw;
 }
+input{
+    height: 4vh;
+    width: 17vw;;
+}
+button{
+    height: 4vh;
+    width: 8vw;
+}
+input[placeholder]{
+    text-align: center;
+}
