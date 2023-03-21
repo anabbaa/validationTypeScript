@@ -32,3 +32,11 @@ button{
 input[placeholder]{
     text-align: center;
 }
+#result{
+    height: 8vh;
+    width: 16vw;
+}
+div > p{
+    font-size: 6rem;
+    color: #ffff;
+}

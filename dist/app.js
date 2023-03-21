@@ -35,6 +35,7 @@ const courseform = document.querySelector("form");
 courseform.addEventListener("submit", event => {
     const titleEL = document.getElementById("title");
     const priceEl = document.getElementById("price");
+    const result = document.querySelectorAll("p");
     const titleV = titleEL.value;
     const priceV = parseInt(priceEl.value);
     event.preventDefault();
@@ -43,5 +44,6 @@ courseform.addEventListener("submit", event => {
         alert('Invalid input, please try again!');
         return;
     }
-    console.log(course1);
+    result[0].textContent = course1.title;
+    result[1].textContent = course1.price;
 });
